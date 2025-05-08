@@ -1,0 +1,13 @@
+{
+    "projects": [
+        {
+            "id": "whitelistplus",
+            "name": "Whitelist+",
+            "description": "",
+            "author": "SantiCraft234YT",
+            "maintainers": "UndeffinedDev (NexSpecter)",
+            "version": 1.7,
+            "update_link": "https://files.undeffined.dev/projects/whitelistplus/lastest.jar"
+        }
+    ]
+}
