@@ -1,14 +1,14 @@
 const express = require('express')
 const fs = require('fs')
 const app = express()
-const port = 3000
+const port = 80
 
 let rawData = fs.readFileSync('info.json')
 let projectData = JSON.parse(rawData)
 let projects = projectData.projects
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World 👋')
 })
 
 app.get('/projects', (req, res) => {
